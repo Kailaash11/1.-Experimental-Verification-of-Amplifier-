@@ -48,10 +48,11 @@ The negative sign in gain indicates a **phase shift of 180°**.
 Acl = -RF/R1
 
 PIN DIAGRAM
+
 <img width="624" height="269" alt="image" src="https://github.com/user-attachments/assets/635c9837-d5f5-4d6f-acc9-8a47a4368230" />
 
 CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
-<img width="779" height="440" alt="image" src="https://github.com/user-attachments/assets/a14d8bc1-9dc7-4a49-98b0-f5320f450a63" />
+![WhatsApp Image 2025-11-29 at 11 21 22_641c4a6e](https://github.com/user-attachments/assets/fde5e7f6-4fc8-41fc-a334-cdcf3aad039e)
 
 MODEL GRAPH 
 
@@ -66,7 +67,7 @@ Inverting amplifier:
 A = -Rf/R1
 Take  A = 10
 Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
+Choose R1 = 15kΩ, Rf=150kΩ
 
 PROCEDURE:
 Inverting amplifier:
@@ -82,16 +83,14 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
+![WhatsApp Image 2025-11-29 at 11 18 11_1399fcf2](https://github.com/user-attachments/assets/122f4258-98c6-42a8-a8aa-ac0067f4b2e1)
+		
  
 
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-29 at 11 19 57_e53a2006](https://github.com/user-attachments/assets/6eb1af8e-373a-42f5-a204-fcc0ddaba365)
 
 
 ---
@@ -109,7 +108,7 @@ ACL = 1 + RF/R1
 ## CIRCUIT DIAGRAM
 
 
-<img width="704" height="397" alt="image" src="https://github.com/user-attachments/assets/1b4b170f-cf21-4fa9-9dc7-96db30b3c153" />
+![WhatsApp Image 2025-11-29 at 11 23 30_8fd71567](https://github.com/user-attachments/assets/6e043b5d-828d-4a74-a635-a861af966bdc)
 
 ---
 
@@ -129,15 +128,13 @@ PROCEDURE:
 7. Plot the input vs. output waveform for one practical case.
 
 ## TABULATION
+![WhatsApp Image 2025-11-29 at 11 25 16_93f3d62b](https://github.com/user-attachments/assets/3e5038c2-98d7-42b8-ac80-19438a6bb5c7)
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-29 at 11 26 20_391f8294](https://github.com/user-attachments/assets/3dc3bc7a-55a7-4d6e-a906-98ed93d78c1c)
 
 
 ---
@@ -150,7 +147,7 @@ If the two input signals are identical, the output is ideally **zero**.
 
 A = Vo/{V2 - V1} = -Rf/R1
 ## CIRCUIT DIAGRAM
-<img width="706" height="522" alt="image" src="https://github.com/user-attachments/assets/917f2544-3735-4a23-a9b7-1264966d0d20" />
+![WhatsApp Image 2025-11-29 at 11 28 47_371f45da](https://github.com/user-attachments/assets/1c5e2f28-29ea-4d61-b629-54fed28efa0d)
 
 ## MODEL GRAPH
 <img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/6aa1b9dd-b112-4be1-a37a-d5ee19607b1d" />
@@ -185,15 +182,12 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 ---
 
 ## TABULATION (Differential Amplifier)
+![WhatsApp Image 2025-11-29 at 11 27 45_6c754613](https://github.com/user-attachments/assets/fcc33a72-fefe-4323-a557-268666c1e0a0)
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-29 at 11 28 32_0f77c326](https://github.com/user-attachments/assets/96aaf25a-08c5-4210-9eb9-ca08fc52e5c0)
 
 
 ---
@@ -209,7 +203,8 @@ Vo = RF/R1[1+ 2R’/R][V2-V1]
 
 ## CIRCUIT DIAGRAM: INSTRUMENTATION AMPLIFIER
 
-<img width="1006" height="1087" alt="image" src="https://github.com/user-attachments/assets/636c08f9-7940-470e-a89e-4891d57a9ac7" />
+![WhatsApp Image 2025-11-29 at 11 32 22_21fc030c](https://github.com/user-attachments/assets/3f502cef-db72-4ea6-b78b-b6a4b92c28f7)
+
 
 PROCEDURE:
 
@@ -225,14 +220,12 @@ PROCEDURE:
 
 ## TABULATION (Instrumentation Amplifier)
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![WhatsApp Image 2025-11-29 at 11 34 21_260f8946](https://github.com/user-attachments/assets/5b09c057-e8ed-4a7c-878c-71418251d75b)
+
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-29 at 11 35 21_e1045002](https://github.com/user-attachments/assets/6e74acb0-5aec-48a6-b322-23273e7a4b1a)
 
 
 ---
